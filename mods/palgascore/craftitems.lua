@@ -174,29 +174,3 @@ minetest.register_craftitem("palgascore:sword_gold", {
     stack_max = 1,
     
 })
-
-minetest.register_craftitem("palgascore:pick_iron", {
-    description = "Iron Pickaxe",
-    inventory_image = "pick_iron.png",
-    stack_max = 1,
-    
-})
-minetest.register_craftitem("palgascore:axe_iron", {
-    description = "Iron Axe",
-    inventory_image = "axe_iron.png",
-    stack_max = 1,
-    
-})
-minetest.register_craftitem("palgascore:shovel_iron", {
-    description = "Iron Shovel",
-    inventory_image = "shovel_iron.png",
-    stack_max = 1,
-    
-})
-minetest.register_craftitem("palgascore:sword_iron", {
-    description = "Iron Sword",
-    inventory_image = "sword_iron.png",
-    stack_max = 1,
-    
-})
-
