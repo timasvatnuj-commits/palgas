@@ -44,7 +44,7 @@ minetest.register_craftitem("palgascore:pick_stone", {
     inventory_image = "pick_stone.png",
     stack_max = 1,
     tool_capabilities = {
-        group_caps={cracky = {times = {[1]=0.71, [2]=0.9, [3]=1.1, [4]=1.5}}}
+        groupcaps={cracky = {times = {[1]=0.71, [2]=0.9, [3]=1.1, [4]=1.5}}}
     }
 })
 minetest.register_craftitem("palgascore:axe_stone", {
@@ -103,3 +103,36 @@ minetest.register_craftitem("palgascore:sword_bronze", {
         groupcaps={snappy={times={[1]=0.0,[2]=0.0,[3]=0.0,[4]=0.0}}}
     }
 })
+minetest.register_craftitem("palgascore:pick_iron", {
+    description = "Iron Pickaxe",
+    inventory_image = "pick_iron.png",
+    stack_max = 1,
+    tool_capabilities = {
+        groupcaps={cracky={times={[1]=0.45, [2]=0.65, [3]=0.85, [4]=1.11, [5]=1.5}}}
+    }
+})
+minetest.register_craftitem("palgascore:axe_iron", {
+    description = "Iron Axe",
+    inventory_image = "axe_iron.png",
+    stack_max = 1,
+    tool_capabilities={
+        groupcaps={choppy={times={[1]=0.15, [2]=0.22, [3]=0.27}}}
+    }
+})
+minetest.register_craftitem("palgascore:shovel_iron", {
+    description = "Iron Shovel",
+    inventory_image = "shovel_iron.png",
+    stack_max = 1,
+    tool_capabilities={
+        groupcaps={crumbly={times={[1]=0.05, [2]=0.08, [3]=0.15}}}
+    }
+})
+minetest.register_craftitem("palgascore:sword_iron", {
+    description = "Iron Sword",
+    inventory_image = "sword_iron.png",
+    stack_max = 1,
+    tool_capabilities={
+        groupcaps={snappy={times={[1]=0.0,[2]=0.0,[3]=0.0,[4]=0.0 [5]=0.34}}}
+    }
+})
+
